@@ -1,0 +1,89 @@
+/* CSS Reset */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Navigation */
+
+#navbar {
+  flex-direction: column;
+}
+
+#navbar ul li a {
+  font-size: 1rem;
+}
+
+/* Home section */
+
+#home::before {
+  height: 100%;
+}
+#home p {
+  font-size: 1.2rem;
+  padding: 3px;
+  text-align: center;
+}
+
+/* Service section */
+#services-container {
+  height: 930px;
+  /* position: absolute; */
+}
+
+#services {
+  flex-direction: column;
+}
+#services .box {
+  padding: 6px;
+  margin: 15px 7px;
+  /* margin-bottom: 4px; */
+}
+
+#services .box img {
+  height: 80px;
+}
+
+/* Clients section */
+
+#clients {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#Clients-section {
+  /* margin: 12px; */
+  height: auto;
+}
+
+.client-box img {
+  height: 100px;
+  padding: 7px 12px;
+  margin: 25px 14px;
+}
+
+/* Contact section */
+#contact-section form {
+  width: 65%;
+  font-size: 1rem;
+  margin-top: 12px;
+}
+
+/* footer */
+
+
+/* Utility class */
+.h-primary {
+  font-size: 1.2rem;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.btn {
+  font-size: 1rem;
+  padding: 13px;
+  margin: 8px;
+  width: 25%;
+  cursor: pointer;
+  border-radius: 11px;
+}
